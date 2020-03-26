@@ -14,6 +14,7 @@ export default class Packaging{
 
     insert(toy: Toy){
         this.toy = toy
+        console.log(toy)
         this.isOpen = false
     }
 
@@ -23,9 +24,5 @@ export default class Packaging{
     
     getToy(){
         return this.toy
-    }
-
-    setIsopen(isOpen: boolean){
-        this.isOpen = this.open()
     }
 }

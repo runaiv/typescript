@@ -20,6 +20,7 @@ export default class Elf{
             console.log('Sorry this package already filled')
         }
         else{
+            packagin.insert(toy)
             console.log(`Yeaaaah! Just packing the toy ${toy.constructor.name}`)
         }
     }
